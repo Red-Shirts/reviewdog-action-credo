@@ -36,7 +36,7 @@ jobs:
     name: runner / credo
     runs-on: ubuntu-latest
     container:
-      image: elixir:1.12-slim
+      image: elixir:1.16-slim
     steps:
       - uses: actions/checkout@v2
       - name: Install Dependencies

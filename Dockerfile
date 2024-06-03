@@ -1,4 +1,4 @@
-FROM elixir:1.12-alpine
+FROM elixir:1.16-alpine
 
 RUN wget -O - -q https://raw.githubusercontent.com/reviewdog/reviewdog/master/install.sh| sh -s -- -b /usr/local/bin/ v0.17.4
 RUN apk --update add git && \
